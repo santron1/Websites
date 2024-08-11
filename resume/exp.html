@@ -3,57 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Experience & Certificates</title>
     <link rel="stylesheet" href="ach.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .area {
+            /*padding: 20px;*/
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+        }
+        header {
+            text-align: center;
+            font-size: 2.5em;
+            color: #fff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .contact01 {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h3, h4 {
+            color: #2575fc;
+        }
+        p.position {
+            font-weight: bold;
+            color: #6a11cb;
+        }
+        p.details {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .li {
+            display: block;
+            text-decoration: none;
+            color: #6a11cb;
+            margin: 10px 0;
+        }
+        .footer-container {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+        }
+        footer ul.circles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        footer ul.circles li {
+            position: absolute;
+            display: block;
+            list-style: none;
+            width: 20px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            animation: animate 25s linear infinite;
+            bottom: -150px;
+        }
+        @keyframes animate {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-1000px) rotate(360deg);
+            }
+        }
+    </style>
 </head>
 <body class="area">
-        <div class="start">
-            <h1>Experience</h1>
-        </div>
-        <div class="start">
-            <div class="contact01">
-                <h3>RoboticIO</h3>
-                <p class="position">Robotics Intern (Part-time)</p>
-                <p class="details">Currently working as a Robotics Instructor Intern at RoboticIO, participating in a part-time online internship. Responsibilities include taking classes of Embedded with ATmega328P chip and exploring several microcontrollers with increasing knowledge in C and Cpp. This position is paid and provides valuable hands-on experience in the field of robotics.</p>
-            </div>
-        </div>
+
+    <header>
+        Experience
+    </header>
+
+    <!-- Experience Section -->
+    <div class="contact01">
+        <h3>RoboticIO</h3>
+        <p class="position">Robotics Instructor (Internship)</p>
+        <p class="details">May 2024 - Aug 2024 · 4 mos · Delhi, India</p>
+        <p class="details">Thriving as a Robotics Instructor at RoboticIO, mastering Arduino Uno's ATmega328P and the ESP32 DevKit with Tensilica Xtensa LX6 processor. Crafting study materials, exploring drone tech, and honing C++ skills.</p>
+        <p class="details">Skills: Arduino Uno · ATmega328P · ESP32 Microcontrollers · C++</p>
+    </div>
+
+    <div class="contact01">
+        <h3>INMAS, Defence Research and Development Organization (DRDO)</h3>
+        <p class="position">Summer Internship</p>
+        <p class="details">Jun 2024 - Jul 2024 · 2 mos · Timarpur, Delhi, India · On-site</p>
+        <p class="details">I completed an internship focused on "Enhancing the Operational Capabilities and Efficiency of CBRNe Remotely Operated Vehicle (ROV)" under the supervision of Mrs. Sima Gautam, Scientist 'E'. The experience included hands-on training with microcontrollers, advanced suspension systems, robotics, RF communication, and antenna analysis. I operated the ROV to understand its capabilities and limitations, and I submitted a detailed report with my findings and suggestions for improvements.</p>
+        <p class="details">Skills: Suspension Design · Robotics · ROV Operations · Report Writing · Antenna Analysis · Embedded Devices</p>
+    </div>
+
+    <div class="contact01">
+        <h3>SYNERGY TELECOM PVT LTD</h3>
+        <p class="position">Education and Research Intern under RF and Microwave Engineering</p>
+        <p class="details">May 2024 - Jun 2024 · 2 mos · Greater Delhi Area · On-site</p>
+        <p class="details">Pursuing internship at Synergy Telecom: collaborating with RF and Microwave Engineering team, applying academic insights, and gaining industry skills. Excited for what's ahead!</p>
+        <p class="details">Skills: Antennas · Antenna Design · Radio Frequency (RF) · Radio Frequency (RF) Engineering · Vector Network Analyzers (VNA) · Connectors</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
         <div class="footer-container">
-            <h2>Contacts</h2>
-            <div class="con2">
-                <i class="fa-solid fa-phone fa-bounce"></i>
-                <a href="tel:7982860425" class="li">Phone number: 7982860425</a>
-            </div>
-            <div class="con2">
-                <i class="fa-solid fa-at fa-bounce"></i>
-                <a href="mailto:sanchayk396@gmail.com" class="li">E-mail: sanchayk396@gmail.com</a>
-            </div>
-            <div class="con2">
-                <i class="fa-brands fa-linkedin fa-bounce"></i>
-                <a href="www.linkedin.com/in/sanchaykumarvk" class="li">Linkedin: www.linkedin.com/in/sanchaykumarvk</a>
-            </div>
-            <div class="con2">
-                <i class="fa-solid fa-house fa-bounce"></i>
-                Address: D-55 Masoodpur, Vasant Kunj, New Delhi-110070
-            </div>
+            ©2024, Sanchay Kumar s/o Mr. Vijay Kumar
         </div>
-        <footer>
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-            <div class="footer-container1">
-                ©2024,Sanchay Kumar s/o Mr.Vijay Kumar
-            </div>
-            </footer>
+    </footer>
 </body>
 </html>
+
 
 
